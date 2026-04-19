@@ -1,4 +1,3 @@
-// components/EmptyState.tsx
 import { Box, Typography } from '@mui/material';
 
 export const EmptyState = () => {
@@ -10,11 +9,10 @@ export const EmptyState = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 flexDirection: 'column',
-                color: '#fff',
                 textAlign: 'center'
             }}
         >
-            <Typography variant="h4" sx={{ fontWeight: 'bold' }}>
+            <Typography variant="h4" sx={{ fontWeight: 500 }}>
                 Where should we begin?
             </Typography>
 

@@ -3,7 +3,7 @@ import { createTheme } from '@mui/material/styles';
 export const theme = createTheme({
     palette: {
         primary: {
-            main: '#4f46e5', // 🔥 main brand color (indigo)
+            main: '#0e69fa', // main brand color (indigo)
         },
         secondary: {
             main: '#22c55e', // optional accent (green)

@@ -24,6 +24,6 @@ export const useChat = () => {
         loading,
         sendMessage,
         copyText,
-        isEmpty: messages.length === 0
+        isEmpty: messages.length == 0
     };
 };
